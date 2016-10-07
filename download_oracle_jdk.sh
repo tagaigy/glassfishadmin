@@ -1,0 +1,1 @@
+curl -v -j -k -L -H "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u102-b14/jdk-8u102-linux-x64.rpm > ~/install/jdk-8u102-linux-x64.rpm

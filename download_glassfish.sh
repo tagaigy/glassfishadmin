@@ -1,0 +1,1 @@
+curl -vjkL http://download.java.net/glassfish/3.1.2.2/release/glassfish-3.1.2.2.zip >~/install/glassfish-3.1.2.2.zip
