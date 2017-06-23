@@ -1,0 +1,23 @@
+#!/bin/bash
+# description: Glassfish Start Stop Restart
+# processname: glassfish
+# chkconfig: 234 20 80
+JAVA_HOME=/usr/java/jdk
+export JAVA_HOME
+PATH=$JAVA_HOME/bin:$PATH
+export PATH
+GLASSFISH_HOME=/home/tagaigy/glassfish/glassfish4/glassfish
+
+case $1 in
+start)
+sh $GLASSFISH_HOME/bin/asadmin start-domain domain1
+;;
+stop)
+sh $GLASSFISH_HOME/bin/asadmin stop-domain domain1
+;;
+restart)
+sh $GLASSFISH_HOME/bin/asadmin stop-domain domain1
+sh $GLASSFISH_HOME/bin/asadmin start-domain domain1
+;;
+esac
+exit 0
