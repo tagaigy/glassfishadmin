@@ -1,1 +1,1 @@
-sudo yum -y localinstall ~/install/jdk-8u102-linux-x64.rpm
+sudo yum -y localinstall ~/install/jdk-8u141-linux-x64.rpm
