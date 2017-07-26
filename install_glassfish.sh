@@ -1,1 +1,0 @@
-unzip -d ~/glassfish ~/install/glassfish-4.1.2.zip
