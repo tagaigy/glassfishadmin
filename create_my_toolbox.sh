@@ -2,7 +2,7 @@
 
 #install my tools
 
-sudo yum install tmux zip unzip mc git -y
+sudo yum install tmux zip unzip mc git svn -y
 
 #tmux
 
